@@ -1,7 +1,7 @@
 # INSIGHT IDEIA DE APP PARA ORGANIZAÇÃO FINANCEIRA
 
-> NOME: MyFinances
-> SITE BANCO DE DADOS: [planet scale](https://planetscale.com/)
+> NOME: MyFinances <br>
+> SITE BANCO DE DADOS: [planet scale](https://planetscale.com/) <br>
 > SITE HOSPEDAR BACKEND: [railway](https://railway.app/)
 
 - Acessar planilha no onedrive do cliente (Microsoft Graph)
@@ -26,3 +26,16 @@
 - Tela de Saídas fixas mensais
 - Tela de gastos mensais não fixos (outra tabela excel talvez)
 - Tela de Cadastro de cartões de crédito (Cada cartão de crédito é uma tabela diferente do Excel)
+
+
+# MyFinances App - DATABASE
+
+## Entidades:
+
+1. Usuario
+2. Cartões de crédito
+3. Gastos fixos
+4. Gastos mensais não fixos
+5. Tabela Relacional para gastos fixos compostos
+5. Entrada de capital
+6. Meses de vizualização na planilha
