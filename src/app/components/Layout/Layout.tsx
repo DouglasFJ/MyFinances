@@ -1,13 +1,13 @@
 import Routes from "../Routes/Routes";
 
 
-export default function Layout({instance}){
+export default function Layout(){
 
     return (
         <>
             <header>Header da aplicação</header>
             <main>
-                <Routes instance={instance} />
+                <Routes />
             </main>
             <footer>Footer da aplicação</footer>
         </>
